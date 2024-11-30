@@ -1,0 +1,17 @@
+my_const is 42
+server is {
+ port : 8080
+ host : localhost
+}
+max_connections is 42
+database is {
+ name : test_db
+ timeout : 30
+ nested : {
+ ref : 42
+}
+ another_const : Hello
+ config : {
+ message : Hello
+}
+}

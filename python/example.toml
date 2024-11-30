@@ -1,0 +1,17 @@
+# Объявление константы
+my_const = 42
+
+# Пример словаря
+server = { port = 8080, host = "localhost" }
+
+# Пример использования константы
+max_connections = ".[my_const]."
+
+[database]
+name = "test_db"
+timeout = 30
+
+# Константы
+nested = { ref = ".[my_const]." }
+another_const = "Hello"
+config = { message = ".[another_const]." }
